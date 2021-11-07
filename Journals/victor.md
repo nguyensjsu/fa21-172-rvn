@@ -13,6 +13,7 @@ There couldn't be any connection because it keeps saying that the datasource 'ur
 ### Accomplishments:
 Later that day I got it to work!
 Looks like the code I had was corrupted? So I created a new project and added the same classes. Made sure everything was the same but it was a new project being built. With that everything seemed to be resolved, had no more connection problems with it.
+
 Link to my [commits](https://github.com/nguyensjsu/fa21-172-rvn/commit/b9b0570e1b30b193d5a6d690436c4ef4c0645857) for when I uploaded the implementated version of MySQL
 
 ![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm3.png)
