@@ -11,6 +11,7 @@ There couldn't be any connection because it keeps saying that the datasource 'ur
 
 Later that day I got it to work!
 Looks like the code I had was corrupted? So I created a new project and added the same classes. Made sure everything was the same but it was a new project being built. With that everything seemed to be resolved, had no more connection problems with it.
+
 ![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm3.png)
 - Image of MySQL being implemented onto our project.
 
