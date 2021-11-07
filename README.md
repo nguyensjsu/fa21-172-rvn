@@ -3,10 +3,4 @@
 
 # Team Journal
 
-# Journal
-
-# Journal
-
-# Journal
-
 
