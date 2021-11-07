@@ -1,3 +1,4 @@
+# Week 1
 10/31/2021 - 11/07/2021
 
 Worked on getting MySQL to run on our project.
