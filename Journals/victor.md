@@ -2,13 +2,14 @@
 ## Week 1 Adding MySQL 10/31/2021 - 11/07/2021
 NOTE: Reason why the project is named as spring gumball is because the group decided to utilize spring-gumball-v2 as the backbone for the project and not v3 since none of us implemented v3 correctly so it didn't contain a working MySQL. So my task for the first week was to figure out how to implement it.
 
-Worked on getting MySQL to run on our project.
+Worked on getting MySQL to run on our project. [MySQL](https://github.com/nguyensjsu/fa21-172-rvn/projects/1#card-72179787)
 ![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm1.png)
 
 ### Challenges:
 ![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm2.png)
 Close to getting it to work but I've been facing multiple issues with the connection.
 There couldn't be any connection because it keeps saying that the datasource 'url' isn't specified even though it's specified in application.properties. The other MySQL lab works fine, spring-mysql, I can get it connected to MySQL and everything works how it's supposed to but when it comes to implementing it to our project we get this error.
+
 
 ### Accomplishments:
 Later that day I got it to work!
