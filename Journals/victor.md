@@ -15,5 +15,7 @@ Looks like the code I had was corrupted? So I created a new project and added th
 - Image of MySQL being implemented onto our project.
 
 Week 1 done and MySQL has been implemented to our project, now we just have to figure out which tables to create.
+![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm4.png)
+- MySQL is implemented!
 
 # Week 2
