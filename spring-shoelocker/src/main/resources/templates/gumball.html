@@ -1,65 +1,136 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" 
-      xmlns:th="http://www.thymeleaf.org">
-
-<html>
+<html lang="en">
 <head>
-    <title>Welcome to the Gumball Machine</title>
-    <link rel="stylesheet" th:href="@{/styles.css}" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Locker</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" th:href="@{/style.css}" />
+
 </head>
-
 <body>
-<h1 align="center">Welcome to the Gumball Machine</h1>
 
-<!-- FORM SECTION -->
+<!-- header section starts  -->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">ShoeLocker<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#products">products</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Shoe Locker</h3>
+        <span> Affordable & Cool Shoes </span>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> about </span> us </h1>
+
+    <div class="row">
+
+        <div class="video-container">
+          <img src="images/img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque sit nemo pariatur corporis perspiciatis aspernatur a ullam repudiandae autem asperiores quibusdam omnis commodi alias repellat illum, unde optio temporibus.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ea est commodi incidunt magni quia molestias perspiciatis, unde repudiandae quidem.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- prodcuts section starts  -->
+
+<section class="products" id="products">
 <form name="form" th:object="${command}" method="post" action="">
+    <h1 class="heading"><span>products</span> </h1>
 
-  <input type="hidden" name="state" id="state" th:field="*{state}" />
-  <input type="hidden" name="ts" id="ts" th:field="*{timestamp}" />
-  <input type="hidden" name="hash" id="hash" th:field="*{hash}" />
+    <div class="box-container">
 
-    <p>
-    <table id="msg" align="center" style="width:40%">
-      <tr>
-        <td>
-          <pre id="pre">
-          <span th:text="${message}" />
-          </pre>
-        </td>
-      </tr>
-    </table>
-    </p>
-    <p align="center"> <img th:src="@{/images/giant-gumball-machine.jpg}" width="385" height="316"/></p>
-    <br/>
+        <div class="box">
+            <div class="image">
+                <img src="images/img-1.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn"><input type="submit" name="action" id="btnInsertQuarter" value="Insert Quarter"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Shoe 1</h3>
+                <div class="price"><span>$15.99</span> </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/img-2.jfif" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn"><input type="submit" name="action" id="btnInsertQuarter" value="Insert Quarter"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Shoe 2</h3>
+                <div class="price"><span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-3.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn"><input type="submit" name="action" id="btnInsertQuarter" value="Insert Quarter"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Shoe 3</h3>
+                <div class="price"><span>$15.99</span></div>
+            </div>
+        </div>
+    </div>
+
+</section>
     <p align="center">
-        Special Instructions:  <input type="text" id="message" th:field="*{message}"/>
-        <br/>
-        <br/>
-        <br/>
-        <input type="submit" name="action" id="btnInsertQuarter" value="Insert Quarter">
-        &nbsp;&nbsp;&nbsp;&nbsp;
         <input type="submit" name="action" id="btnTurnCrank" value="Turn Crank">
     </p>
 </form>
-<!-- END FORM SECTION -->
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-<table align="center" style="width:100%" >
-<tr>
-  <td style="text-align: left;" >
-    <pre>Hash:  <span th:text="${hash}" /></pre>
-  </td>
-  <td style="text-align: right;" >
-    <pre>Server Host/IP:  <span th:text="${server}" /></pre>
-  </td>  
-</tr>
-</table>
-
+<!-- prodcuts section ends -->
+ 
 </body>
 </html>
