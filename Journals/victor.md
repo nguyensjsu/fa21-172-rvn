@@ -21,6 +21,18 @@ Link to my [commits](https://github.com/nguyensjsu/fa21-172-rvn/commit/b9b0570e1
 
 Week 1 done and MySQL has been implemented to our project, now we just have to figure out which tables to create.
 ![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm4.png)
-- MySQL is implemented!
+- MySQL is implemented
 
-## Week 2
+## Week 2 Adding Cybersource/Payment 11/15/2021 - 11/21/2021
+
+### Challenges:
+- The only challenge I had while trying to integrate cybersouce/payments to our project was figuring out how to connect it with MYSQL. I solved it by just adding mysql dependencies and everythink worked, just had to change h2database to mysql database and made sure the files lined up to work with eachother.
+
+
+### Accomplishments:
+![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm7.png)
+- Got payments running on our project
+
+![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm8.png)
+- With mysql working with it as well
+
