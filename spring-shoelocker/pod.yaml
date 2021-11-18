@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: spring-shoelocker
+  namespace: default
+  labels:
+    name: spring-shoelocker
+spec:
+  containers:
+    - image: paulnguyen/spring-shoelocker:latest
+      name: spring-shoelocker
+      ports:
+        - containerPort: 8080
+          name: http
+          protocol: TCP
