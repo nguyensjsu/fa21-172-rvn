@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:th="http://www.thymeleaf.org">
+
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Locker</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" th:href="@{/style.css}" />
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">ShoeLocker<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#products">products</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Shoe Locker</h3>
+        <span> Affordable & Cool Shoes </span>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> about </span> us </h1>
+
+    <div class="row">
+
+        <div class="video-container">
+          <img src="images/img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque sit nemo pariatur corporis perspiciatis aspernatur a ullam repudiandae autem asperiores quibusdam omnis commodi alias repellat illum, unde optio temporibus.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ea est commodi incidunt magni quia molestias perspiciatis, unde repudiandae quidem.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- prodcuts section starts  -->
+
+<section class="products" id="products">
+<form name="form" th:object="${command}" method="post" action="">
+    <h1 class="heading"><span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-1.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn"><input type="submit" name="action" id="btnInsertQuarter" value="Insert Quarter"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Shoe 1</h3>
+                <div class="price"><span>$15.99</span> </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/img-2.jfif" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn"><input type="submit" name="action" id="btnInsertQuarter" value="Insert Quarter"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Shoe 2</h3>
+                <div class="price"><span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-3.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn"><input type="submit" name="action" id="btnInsertQuarter" value="Insert Quarter"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Shoe 3</h3>
+                <div class="price"><span>$15.99</span></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <p align="center">
+        <input type="submit" name="action" id="btnTurnCrank" value="Turn Crank">
+    </p>
+</form>
+<!-- prodcuts section ends -->
+ 
+</body>
+</html>
