@@ -40,6 +40,8 @@ Worked on adding Cybersource/Payment to our project. Link [Cybersource/Payments]
 ![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm8.png)
 - With mysql working with it as well
 
+Link to my [commits](https://github.com/nguyensjsu/fa21-172-rvn/commit/6b00dea1e9499debb82a5ad5eb12dd5b30589a00) for when I worked on Cybersource/Payments.
+
 Week 2 done with Payments/Cybersource now being implemented to our project, fully functioning with MySQL.
 ![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm6.png)
 
