@@ -25,6 +25,10 @@ Week 1 done and MySQL has been implemented to our project, now we just have to f
 
 ## Week 2 Adding Cybersource/Payment 11/15/2021 - 11/21/2021
 
+Worked on adding Cybersource/Payment to our project. Link [Cybersource/Payments](https://github.com/nguyensjsu/fa21-172-rvn/projects/1#card-72179587) card
+![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm5.png)
+
+
 ### Challenges:
 - The only challenge I had while trying to integrate cybersouce/payments to our project was figuring out how to connect it with MYSQL. I solved it by just adding mysql dependencies and everythink worked, just had to change h2database to mysql database and made sure the files lined up to work with eachother.
 
@@ -35,4 +39,7 @@ Week 1 done and MySQL has been implemented to our project, now we just have to f
 
 ![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm8.png)
 - With mysql working with it as well
+
+Week 2 done with Payments/Cybersource now being implemented to our project, fully functioning with MySQL.
+![images](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/images/vm6.png)
 
