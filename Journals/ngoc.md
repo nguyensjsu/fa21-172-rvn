@@ -24,3 +24,4 @@ In addition, I added the functionality of browsing product catalog or offerings 
 ### Images
 <img src="https://i.imgur.com/uvFe2kK.png" width=1200>
 <img src="https://i.imgur.com/sowE0km.png" width=1200>
+<img src="https://i.imgur.com/NYvlQ0O.png" width=1200>
