@@ -23,6 +23,8 @@ I was able to set up the KONG by utilizing the work done previously in Lab 8, ho
 ### Challenges:
 - Encountered difficulty in implementing KONG into project website so I had to reference Lab 8
 - Previous KONG implementation done in Lab 8 did not fully work within project implementation
+- Ran into some issues with bugs so had to scrap the initial implementation 
+- Since there were a couple bugs, I had to make several attempts at doing the KONG API Gateway
 
 ### Images
 <img src="https://i.imgur.com/aXc0SbK.jpg" width=1200>
