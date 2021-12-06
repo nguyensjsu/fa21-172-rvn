@@ -21,3 +21,4 @@ In addition, I added the functionality of browsing product catalog or offerings 
 - Finalized website homepage
 
 ### Images
+<img src="https://i.imgur.com/uvFe2kK.png" width=1200>
