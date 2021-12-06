@@ -3,7 +3,7 @@
 Uploaded the backbone of the project using Spring-Gumball.
 This checks off the Spring framework requirement and REST APIs. 
 
-### Accomplishments
+### Accomplishments:
 - Completed the Spring Framework and REST API project requirement
 
 ### Challenges:
@@ -13,4 +13,15 @@ This checks off the Spring framework requirement and REST APIs.
 ### Images
 <img src="https://i.imgur.com/I5is0dP.jpg" width=1200>
 
-## Week 2 
+## Week 2 Implement KONG 11/08/2021 - 11-15/2021
+I started on the implementation of KONG for the database and middleware requirements
+I was able to set up the KONG by utilizing the work done previously in Lab 8, however it did not work fully
+
+### Accomplishments:
+- Started working on KONG for the database and middleware requirement
+
+### Challenges:
+- Encountered difficulty in implementing KONG into project website so I had to reference Lab 8
+- Previous KONG implementation done in Lab 8 did not fully work within project implementation
+
+### Images
