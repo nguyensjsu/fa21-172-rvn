@@ -4,9 +4,10 @@ This week we added REST API from spring gumball which we used as our backbone.
 
 ### Accomplishments:
 - Using Spring Gumball worked
-- REST API worked like it is supposed to.
+- REST API worked like it is supposed to
+- REST API has been implemented to our project.
 
-REST API has been implemented to our project.
+### Images
 <img src="https://i.imgur.com/FlbngqU.png" width=1200>
 
 
