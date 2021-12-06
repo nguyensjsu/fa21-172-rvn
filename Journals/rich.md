@@ -1,9 +1,16 @@
 # Rich's Journal
 ## Week 1 Adding Backbone of the Spring-Shoelocker 10/31/2021 - 11/07/2021
+Uploaded the backbone of the project using Spring-Gumball. 
+This checks off the Spring framework requirement and REST APIs. 
 
-Uploaded the backbone of the project using Spring-Gumball. This check off the Spring framwork requirement and REST APIs. 
+### Accomplishments
+- Completed the Spring Framework and REST API project requirement
 
 ### Challenges:
-The backbone did not have MySQL implemented so we have to add onto it. 
+- The backbone of the Spring-Gumball did not have MySQL implemented
+- I had to implement the MySQL separately and add onto the Spring-Gumball backbone
 
-## Week 2
+### Images
+
+
+## Week 2 
