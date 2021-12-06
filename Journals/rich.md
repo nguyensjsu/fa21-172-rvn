@@ -25,4 +25,4 @@ I was able to set up the KONG by utilizing the work done previously in Lab 8, ho
 - Previous KONG implementation done in Lab 8 did not fully work within project implementation
 
 ### Images
-<img src="https://i.imgur.com/tinp6fy.jpg" width=1200>
+<img src="https://i.imgur.com/aXc0SbK.jpg" width=1200>
