@@ -1,9 +1,9 @@
 # Team RVN
 
-## Project Members
+### Project Members
 Rich Pham, Ngoc Doan, Victor Martinez Zarate
 
-## Project Description
+### Project Description
 Our project is called Shoe Locker, an online shoe store. Shoe Locker is an e-commerce store where users can create accounts, log in, browse products in our shoe selection, and purchase any shoe with a click of a button. 
 
 ## Team Journal
@@ -31,3 +31,29 @@ Journal entries of each team member
 * [Ngoc Doan Journal](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/ngoc.md)
 
 * [Victor Zarate Journal](https://github.com/nguyensjsu/fa21-172-rvn/blob/main/Journals/victor.md)
+
+## Functional Requirements
+
+* Front office portal web application that allows users to do the following:
+
+	* Create for an account
+	* Log in to their account 
+	* Browse shoe collection
+	* Place an order for their shoe
+	* Pay for their shoe using credit cards
+
+* Back office portal web pplication that allows the admin to do the following:
+
+	* Reset user password
+
+* REST APIs: Back office & front office applications are integrated with "Backends" using REST APIs
+
+## Technical Requirements
+
+* Use of Spring Framework for Back Office Portal and Rest APIs
+* Development with Gradle 5.6 and JDK 11 Version of Java
+* Kong API Gateway
+* Cloud Deployment on GCP/Kubernetes
+	* MySQL Database 8.0
+	* RabbitMQ
+* Integration with CyberSource Payment Gateway for Credit Card Payments 
