@@ -75,3 +75,6 @@ Journal entries of each team member
 
 ### CyberSource
 <img src="https://i.imgur.com/4yq09tU.png" width=1200>
+
+### MySQL Inventory Updated
+<img src="https://i.imgur.com/ZcBT8fp.png" width=1200>
