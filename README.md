@@ -69,3 +69,6 @@ Journal entries of each team member
 
 ### Credit Card Payment Form
 <img src="https://i.imgur.com/0XLacrD.png" width=1200>
+
+### Payment Form Success
+<img src="https://i.imgur.com/gZJ4Led.png" width=1200>
