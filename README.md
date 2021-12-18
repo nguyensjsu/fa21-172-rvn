@@ -8,7 +8,7 @@ Our project is called Shoe Locker, an online shoe store. Shoe Locker is an e-com
 
 # Project Demo
 
-* [Demo Video](https://github.com/nguyensjsu/fa21-172-rvn/Demo)
+* [Demo Video](https://github.com/nguyensjsu/fa21-172-rvn/Demo_Video)
 
 ## Team Journal
 
