@@ -57,3 +57,6 @@ Journal entries of each team member
 
 ### Homepage 
 <img src="https://i.imgur.com/j8sYyxS.png" width=1200>
+
+### Create Account
+<img src="https://i.imgur.com/L8jRY1r.png" width=1200>
