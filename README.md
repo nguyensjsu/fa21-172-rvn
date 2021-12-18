@@ -6,6 +6,10 @@ Rich Pham, Ngoc Doan, Victor Martinez Zarate
 ### Project Description
 Our project is called Shoe Locker, an online shoe store. Shoe Locker is an e-commerce store where users can create accounts, log in, browse products in our shoe selection, and purchase any shoe with a click of a button. 
 
+# Project Demo
+
+* [Demo Video](https://github.com/nguyensjsu/fa21-172-rvn/Demo)
+
 ## Team Journal
 
 ### Journal Entry 1
