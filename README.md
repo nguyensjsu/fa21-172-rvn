@@ -66,3 +66,6 @@ Journal entries of each team member
 
 ### Browse Products
 <img src="https://i.imgur.com/zB4I66J.png" width=1200>
+
+### Credit Card Payment Form
+<img src="https://i.imgur.com/0XLacrD.png" width=1200>
