@@ -78,3 +78,6 @@ Journal entries of each team member
 
 ### MySQL Inventory Updated
 <img src="https://i.imgur.com/ZcBT8fp.png" width=1200>
+
+### Back Office Help Form
+<img src="https://i.imgur.com/tZFrWp3.png" width=1200>
