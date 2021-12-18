@@ -54,3 +54,6 @@ Journal entries of each team member
 * Integration with CyberSource Payment Gateway for Credit Card Payments 
 
 ## Screenshots
+
+### Homepage 
+<img src="https://i.imgur.com/j8sYyxS.png" width=1200>
