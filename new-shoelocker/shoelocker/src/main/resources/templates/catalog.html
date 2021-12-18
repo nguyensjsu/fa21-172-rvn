@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeLocker</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+</head>
+
+<body>
+    <button class="simple-button" onclick="javascript:history.back()">Back</button>
+
+    <section>
+        <h2 class="title">Shoe <span class="color"> Locker </span> </h2>
+        <h3>Christmas Selection Shoes</h3>
+        <div class="container">
+            <div class="card">
+                <div class="image">
+                    <img src="/images/nike.png" alt="">
+                    <h2>Nike Green Shoes</h2>
+                    <h2>$40</h2>
+                </div>
+                <div class="details">
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/img1.png" alt="">
+                    <h2>Orange shoes</h2>
+                    <h2>$50</h2>
+                </div>
+                <div class="details">
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/img2.png" alt="">
+                    <h2>Nike Sport Shoes</h2>
+                    <h2>$30</h2>
+                </div>
+                <div class="details">
+                </div>
+            </div>
+        </div>
+        <br />
+        <form th:action="@{/catalog}" method="post" th:object="${catalog}">
+            <label for="shoe1">
+                Count for Nike Green Shoe: <input type text id="shoe1" maxlength="2" name="shoe1" th:field="*{shoe1}"/>
+            </label>
+            <label for="shoe2">
+                Count for Orange Shoe: <input type text id="shoe2" maxlength="2" name="shoe2" th:field="*{shoe2}"/>
+            </label>
+            <label for="shoe3">
+                Count Nike Sport Shoe: <input type text id="shoe3" maxlength="2" name="shoe3" th:field="*{shoe3}"/>
+            </label>
+    <br />
+    <br />
+
+        <button class="simple-button" type="submit">CHECKOUT</button>
+</form>
+    </section>
+
+</body>
+
+</html>
