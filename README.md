@@ -52,6 +52,8 @@ Journal entries of each team member
 * Cloud Deployment on GCP/Kubernetes
 	* MySQL Database 8.0
 * Integration with CyberSource Payment Gateway for Credit Card Payments 
+## Diagram
+<img src="https://i.imgur.com/pVXuGge.png" width=1200>
 
 ## Screenshots
 
