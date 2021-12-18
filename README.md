@@ -84,3 +84,6 @@ Journal entries of each team member
 
 ### Help Form Success
 <img src="https://i.imgur.com/GGkqHdi.png" width=1200>
+
+### Back Office Help Form Data
+<img src="https://i.imgur.com/OwdwDTQ.png" width=1200>
