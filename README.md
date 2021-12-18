@@ -8,20 +8,16 @@ Our project is called Shoe Locker, an online shoe store. Shoe Locker is an e-com
 
 ## Team Journal
 
-### Journal Entry 1 10/31/2021 - 11/07/2021
+### Journal Entry 1
 - Group finalized project concept
 - Completed Spring Framework and REST API requirement
 - Integrated MySQL
 
-### Journal Entry 2 11/15/2021 - 11/21/2021
+### Journal Entry 2
 - Began front end development of Front Office Portal
 - Finalized home page user interface
 - Began implementation of KONG API Gateway
 - Added Cybersource Credit Card Payment
-
-### Journal Entry 3 11/22/2021 - 11/28/2021
-
-### Journal Entry 4 11/29/2021 - 12/06/2021
 
 ## Individual Team Journals
 Journal entries of each team member
@@ -44,7 +40,8 @@ Journal entries of each team member
 
 * Back office portal web pplication that allows the admin to do the following:
 
-	* Reset user password
+	* Users can ask for help from the help desk
+	* Reset Password
 
 * REST APIs: Back office & front office applications are integrated with "Backends" using REST APIs
 
@@ -52,8 +49,8 @@ Journal entries of each team member
 
 * Use of Spring Framework for Back Office Portal and Rest APIs
 * Development with Gradle 5.6 and JDK 11 Version of Java
-* Kong API Gateway
 * Cloud Deployment on GCP/Kubernetes
 	* MySQL Database 8.0
-	* RabbitMQ
 * Integration with CyberSource Payment Gateway for Credit Card Payments 
+
+## Screenshots
