@@ -63,3 +63,6 @@ Journal entries of each team member
 
 ### Login 
 <img src="https://i.imgur.com/nuNzSj8.png" width=1200>
+
+### Browse Products
+<img src="https://i.imgur.com/zB4I66J.png" width=1200>
